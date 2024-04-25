@@ -3,6 +3,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { MdLocationOn } from "react-icons/md";
 import logoImg from "../Images/logo.png";
+import { Link } from "react-router-dom";
 
 export const FooterComp = () => {
   return (
@@ -56,9 +57,9 @@ export const FooterComp = () => {
           <div className="text-[#54595f]">
             <ul>
               <li>
-                <a href="#">
+                <Link to={"/about"}>
                   <p className="text-lg ml-2 ">About Us</p>
-                </a>
+                </Link>
               </li>
               <li className="mt-2">
                 <a href="#">
