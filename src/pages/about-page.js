@@ -33,6 +33,26 @@ export const AboutPage = () => {
           </div>
         </div>
       </div>
+      <div className="flex p-[6%]">
+        <div className="w-[50%]]">
+          <img
+            src="https://gaviaspreview.com/wp/tevily/wp-content/uploads/2021/10/image-13.jpg"
+            alt="..."
+            className="rounded-lg"
+          />
+        </div>
+        <div className="w-[50%] px-10">
+          <p className="text-[40px] font-bold">
+            Dare to Explore with Tevily Agency
+          </p>
+          <p className="mt-5 text-gray-500">
+            We are trusted by our clients and have a reputation for the best
+            services in the field. Lorem ipsum is simply free text dolor sit
+            amett consectetur adipiscing elit. It is a long established fact
+            that a reader will be distracted by the readable content of a page.
+          </p>
+        </div>
+      </div>
       <FooterComp />
     </>
   );

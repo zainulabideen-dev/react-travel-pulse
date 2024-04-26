@@ -96,9 +96,9 @@ export const FooterComp = () => {
                 </a>
               </li>
               <li className="mt-2">
-                <a href="#">
+                <Link to={"/terms-and-condition"}>
                   <p className="text-lg ml-2 font-bold">Privacy Policy</p>
-                </a>
+                </Link>
               </li>
               <li className="mt-2">
                 <a href="#">
