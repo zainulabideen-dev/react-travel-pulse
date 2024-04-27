@@ -1,5 +1,10 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
+import lahoreImg from "../Images/lahore.jpeg";
+import islamabadImg from "../Images/islamabad.jpeg";
+import karachiImg from "../Images/karachi.jpeg";
+import skarduImg from "../Images/skardu02.jpeg";
+import multanImg from "../Images/multan.jpeg";
 
 export default function Destination_listComp() {
   return (
@@ -19,17 +24,27 @@ export default function Destination_listComp() {
           <div className="flex items-center justify-center">
             <div className="w-[85%] h-[500px] mt-5">
               <div className=" flex justify-between">
-                <div className=" w-[24%] h-auto bg-[url('https://gaviaspreview.com/wp/tevily/wp-content/uploads/2021/09/image-2.jpg')] bg-cover rounded-lg overflow-hidden cursor-pointer">
+                <div
+                  className=" w-[24%] h-auto bg-cover rounded-lg overflow-hidden cursor-pointer"
+                  style={{
+                    backgroundImage: `url("${lahoreImg}")`,
+                  }}
+                >
                   <div className=" flex justify-end items-center w-[90%] h-[60px]  ml-3 mt-2">
                     <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">4 TOURS</p>
                     </div>
                   </div>
                   <div className="w-[65%] h-[180px]  ml-5 flex items-end">
-                    <p className="font-bold text-4xl text-white">Morroco</p>
+                    <p className="font-bold text-4xl text-white">Lahore</p>
                   </div>
                 </div>
-                <div className="w-[50%] h-[270px] bg-[url('https://gaviaspreview.com/wp/tevily/wp-content/uploads/2021/09/image-1.jpg')] bg-cover  rounded-lg overflow-hidden cursor-pointer">
+                <div
+                  className={`w-[50%] h-[270px] bg-no-repeat bg-cover bg-center rounded-lg overflow-hidden cursor-pointer`}
+                  style={{
+                    backgroundImage: `url("${islamabadImg}")`,
+                  }}
+                >
                   <div className=" flex justify-end items-center w-[95%] h-[60px]  ml-3 mt-2">
                     <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">6 TOURS</p>
@@ -37,25 +52,35 @@ export default function Destination_listComp() {
                   </div>
                   <div className="w-[65%] h-[180px]  ml-5 flex items-end">
                     <p className="font-bold text-4xl text-white">
-                      <span className="text-2xl text-[#E8604C]">WildLife</span>
-                      <br />
-                      United Kingdom{" "}
+                      {/* <span className="text-2xl text-[#E8604C]">WildLife</span>
+                      <br /> */}
+                      Islamabad
                     </p>
                   </div>
                 </div>
-                <div className="w-[24%] h-auto bg-[url('https://gaviaspreview.com/wp/tevily/wp-content/uploads/2021/09/image-3.jpg')] bg-cover  rounded-lg overflow-hidden cursor-pointer">
+                <div
+                  className="w-[24%] h-auto bg-cover  rounded-lg overflow-hidden cursor-pointer"
+                  style={{
+                    backgroundImage: `url("${karachiImg}")`,
+                  }}
+                >
                   <div className=" flex justify-end items-center w-[90%] h-[60px]  ml-3 mt-2">
                     <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">3 TOURS</p>
                     </div>
                   </div>
                   <div className="w-[65%] h-[180px]  ml-5 flex items-end">
-                    <p className="font-bold text-4xl text-white">Singapore</p>
+                    <p className="font-bold text-4xl text-white">Karachi</p>
                   </div>
                 </div>
               </div>
               <div className=" flex justify-between mt-3">
-                <div className="w-[49.5%] h-auto bg-[url('https://gaviaspreview.com/wp/tevily/wp-content/uploads/2021/09/image-4.jpg')] bg-cover  rounded-lg overflow-hidden cursor-pointer">
+                <div
+                  className="w-[49.5%] h-auto bg-cover bg-center rounded-lg overflow-hidden cursor-pointer"
+                  style={{
+                    backgroundImage: `url("${skarduImg}")`,
+                  }}
+                >
                   <div className=" flex justify-end items-center w-[95%] h-[60px] ml-3 mt-2">
                     <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">3 TOURS</p>
@@ -63,13 +88,18 @@ export default function Destination_listComp() {
                   </div>
                   <div className="w-[65%] h-[180px]  ml-5 flex items-end">
                     <p className="font-bold text-4xl text-white">
-                      <span className="text-2xl text-[#E8604C]">WildLife</span>
-                      <br />
-                      Hungary{" "}
+                      {/* <span className="text-2xl text-[#E8604C]">WildLife</span>
+                      <br /> */}
+                      Skardu{" "}
                     </p>
                   </div>
                 </div>{" "}
-                <div className="w-[49.5%] h-[270px] bg-[url('https://gaviaspreview.com/wp/tevily/wp-content/uploads/2021/09/image-5.jpg')] bg-cover  rounded-lg overflow-hidden cursor-pointer">
+                <div
+                  className="w-[49.5%] h-[270px] bg-cover bg-center rounded-lg overflow-hidden cursor-pointer"
+                  style={{
+                    backgroundImage: `url("${multanImg}")`,
+                  }}
+                >
                   <div className=" flex justify-end items-center w-[95%] h-[60px] ml-3 mt-2">
                     <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">3 TOURS</p>
@@ -77,9 +107,9 @@ export default function Destination_listComp() {
                   </div>
                   <div className="w-[65%] h-[180px] ml-5 flex items-end">
                     <p className="font-bold text-4xl text-white">
-                      <span className="text-2xl text-[#E8604C]">Adventure</span>
-                      <br />
-                      Italy{" "}
+                      {/* <span className="text-2xl text-[#E8604C]">Multan</span>
+                      <br /> */}
+                      Multan{" "}
                     </p>
                   </div>
                 </div>
