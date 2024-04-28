@@ -5,6 +5,7 @@ import islamabadImg from "../Images/islamabad.jpeg";
 import karachiImg from "../Images/karachi.jpeg";
 import skarduImg from "../Images/skardu02.jpeg";
 import multanImg from "../Images/multan.jpeg";
+import qiadImg from "../Images/qaid.jpeg";
 
 export default function Destination_listComp() {
   return (
@@ -121,7 +122,12 @@ export default function Destination_listComp() {
       <div className=" w-[100%] h-[800px] flex justify-center">
         <div className="w-[1360px] h-full flex items-center">
           <div className="w-[55%] h-[80%] flex items-center justify-end">
-            <div className="cursor-pointer w-[85%] h-[85%] bg-[url('https://gaviaspreview.com/wp/tevily/wp-content/uploads/2021/09/image-6.jpg')] bg-cover">
+            <div
+              className="cursor-pointer w-[85%] h-[85%] bg-contain rounded-lg"
+              style={{
+                backgroundImage: `url("${qiadImg}")`,
+              }}
+            >
               <div className=" w-full h-[200px] flex justify-end items-end">
                 <p className="text-6xl font-semibold text-black mr-10">
                   <span className="text-7xl text-[#E8604C]">30%</span>
@@ -129,7 +135,7 @@ export default function Destination_listComp() {
                   Discount
                 </p>
               </div>
-              <div className="mt-[100px] bg-white shadow-xl w-[190px] h-[70px] rounded-lg flex justify-center items-center">
+              <div className="mt-[100px] ml-5 bg-white shadow-xl w-[190px] h-[70px] rounded-lg flex justify-center items-center">
                 <p className="text-black font-semibold text-center">
                   <span className="text-[10px] text-[#757783]">
                     BOOK TOUR NOW
