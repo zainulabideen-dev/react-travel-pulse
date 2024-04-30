@@ -7,45 +7,8 @@ import { IoLocationSharp } from "react-icons/io5";
 import { IoTimeOutline } from "react-icons/io5";
 import { TbUsers } from "react-icons/tb";
 import { GoArrowRight } from "react-icons/go";
-import skarduImg from "../Images/skardu.jpeg";
-import hunzaImg from "../Images/hunza.jpeg";
-import murreeImg from "../Images/murree.jpeg";
-import nathiyagaliImg from "../Images/Nathiyagali_Khanpur_Dam.jpeg";
-
-const products = [
-  {
-    id: 1,
-    title: "7 Days Skardu",
-    location: "Skardu, Pakistan",
-    price: "25,000 PKR",
-    days: 7,
-    image: skarduImg,
-  },
-  {
-    id: 2,
-    title: "5 Days Hunza",
-    location: "Hunza, Pakistan",
-    price: "20,000 PKR",
-    days: 5,
-    image: hunzaImg,
-  },
-  {
-    id: 3,
-    title: "2 Days Murree",
-    location: "Murree, Pakistan",
-    price: "15,000 PKR",
-    days: 2,
-    image: murreeImg,
-  },
-  {
-    id: 4,
-    title: "2 Days Nathiyagali Khanpur Dam",
-    location: "Nathiyagali Khanpur Dam, Pakistan",
-    price: "18,000 PKR",
-    days: 2,
-    image: nathiyagaliImg,
-  },
-];
+import { Link } from "react-router-dom";
+import { mostPopTour } from "../config";
 
 export default function FeaturedToursComp() {
   const responsiveOptions = [
@@ -77,7 +40,7 @@ export default function FeaturedToursComp() {
         <img
           alt="..."
           className="w-[400px] h-[300px] z-0"
-          src={product?.image}
+          src={product?.images[0]}
         />
         <div className="bg-white p-5 rounded-t-3xl rounded-b-xl  mt-[-50px] z-10 relative">
           <div className="flex justify-between">
@@ -113,10 +76,12 @@ export default function FeaturedToursComp() {
                 <TbUsers className="text-red-400" />
                 <p className="text-sm ml-2">50</p>
               </div>
-              <div className="flex items-center cursor-pointer">
-                <p className="text-sm text-red-400">Explore</p>
-                <GoArrowRight className="text-red-400 ml-2" />
-              </div>
+              <Link to={{ pathname: "/tour-details" }} state={product}>
+                <div className="flex items-center">
+                  <p className="text-sm text-red-400">Explore</p>
+                  <GoArrowRight className="text-red-400 ml-2" />
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -131,7 +96,7 @@ export default function FeaturedToursComp() {
       </p>
       <div className="card mt-10 px-5">
         <Carousel
-          value={products}
+          value={mostPopTour}
           numVisible={3}
           numScroll={3}
           responsiveOptions={responsiveOptions}
