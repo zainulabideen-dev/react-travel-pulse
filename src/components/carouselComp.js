@@ -11,6 +11,8 @@ import skarduImg from "../Images/skardu.jpeg";
 import hunzaImg from "../Images/hunza.jpeg";
 import murreeImg from "../Images/murree.jpeg";
 import nathiyagaliImg from "../Images/Nathiyagali_Khanpur_Dam.jpeg";
+import { HiMiniAdjustmentsHorizontal } from "react-icons/hi2";
+import { GrGroup } from "react-icons/gr";
 
 const products = [
   {
@@ -122,10 +124,10 @@ export default function CarouselComp() {
                 <img src={icon2} alt="..." className="w-10 h-10" />
                 <div className="ml-3">
                   <p className=" flex text-sm text-[#757783] font-semibold">
-                    Activity type?
+                    Departure Date?
                     <IoIosArrowDown className="ml-[60px] text-[#676978]" />
                   </p>
-                  <p className="text-sm text-[#313041] font-bold">Activity</p>
+                  <p className="text-sm text-[#313041] font-bold">--</p>
                 </div>
               </div>{" "}
             </div>
@@ -133,14 +135,15 @@ export default function CarouselComp() {
               <div className=" w-[90%] h-[65px] border-[#c5c5c9] cursor-pointer border-b-2 flex items-center ">
                 <img src={icon3} alt="..." className="w-10 h-10" />
                 <div className="ml-3">
-                  <p className="text-sm text-[#757783] font-semibold">When</p>
-                  <p className="text-sm text-[#313041] font-bold">Date from</p>
+                  <p className="text-sm text-[#757783] font-semibold">Return</p>
+                  <p className="text-sm text-[#313041] font-bold">--</p>
                 </div>
               </div>{" "}
             </div>
             <div className=" flex justify-center items-center ">
               <div className=" w-[80%] h-[65px] border-[#c5c5c9] cursor-pointer border-b-2 flex items-center ">
-                <img src={icon4} alt="..." className="w-10 h-10" />
+                <GrGroup size={30} className="text-[#3498DB]" />
+
                 <div className="ml-3">
                   <p className=" text-sm text-[#757783] font-semibold">
                     Guests
@@ -151,8 +154,11 @@ export default function CarouselComp() {
             </div>
             <div className="flex items-center ">
               <div className=" w-[90%] h-[65px] cursor-pointer flex items-center ">
-                <img src={icon5} alt="..." className="w-10 h-10" />
-                <div className="ml-3 bg-[#E8604C] w-[190px] h-full rounded-lg flex justify-center items-center">
+                <HiMiniAdjustmentsHorizontal
+                  size={30}
+                  className="text-[#3498DB]"
+                />
+                <div className="ml-3 bg-[#3498DB] w-[190px] h-full rounded-lg flex justify-center items-center">
                   <FaSearch className="mr-3 text-white" />
                   <p className="text-white text-sm font-bold">SEARCH</p>
                 </div>

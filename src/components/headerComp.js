@@ -15,7 +15,7 @@ export default function HeaderComp() {
             <div className=" flex items-center">
               <div className=" cursor-pointer flex">
                 <div>
-                  <FaPhone className="text-[#E8604C]" />
+                  <FaPhone className="text-[#3498DB]" />
                 </div>
                 <div className=" ml-3 text-sm font-semibold">
                   <p className="text-[#9D9D9D] hover:text-[#E8604C]">
@@ -25,7 +25,7 @@ export default function HeaderComp() {
               </div>
               <div className="ml-6 cursor-pointer flex">
                 <div className="">
-                  <HiMail className="text-[#E8604C]" />
+                  <HiMail className="text-[#3498DB]" />
                 </div>
                 <div className=" ml-3 text-sm font-semibold ">
                   <p className="text-[#9D9D9D] hover:text-[#E8604C]">
@@ -49,7 +49,7 @@ export default function HeaderComp() {
                   <FaPinterest className="w-7 h-7 p-1" />
                 </div>
               </div>
-              <div className="h- full w-[230px] bg-[#E8604C] flex items-center justify-center font-sans text-[12px] font-semibold text-white cursor-pointer ml-1">
+              <div className="h- full w-[230px] bg-[#3498DB] flex items-center justify-center font-sans text-[12px] font-semibold text-white cursor-pointer ml-1">
                 <p>BECOME A LOCAL GUIDE</p>
               </div>
             </div>
