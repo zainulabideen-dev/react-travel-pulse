@@ -2,17 +2,14 @@ import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
 import { Carousel } from "primereact/carousel";
-import icon1 from "../Images/Icon.png";
-import icon2 from "../Images/Icon 02.png";
-import icon3 from "../Images/Icon 03.png";
-import icon4 from "../Images/Icon 04.png";
-import icon5 from "../Images/Icon 05.png";
 import skarduImg from "../Images/skardu.jpeg";
 import hunzaImg from "../Images/hunza.jpeg";
 import murreeImg from "../Images/murree.jpeg";
 import nathiyagaliImg from "../Images/Nathiyagali_Khanpur_Dam.jpeg";
 import { HiMiniAdjustmentsHorizontal } from "react-icons/hi2";
-import { GrGroup } from "react-icons/gr";
+import { BsCalendar2Date } from "react-icons/bs";
+import { BiCurrentLocation } from "react-icons/bi";
+import { RiGroupLine } from "react-icons/ri";
 
 const products = [
   {
@@ -107,8 +104,8 @@ export default function CarouselComp() {
           <div className="w-[1200px] h-[100px] bg-white rounded-xl  drop-shadow-2xl grid grid-cols-5">
             <div className=" flex justify-center items-center ">
               <div className=" w-[90%] h-[65px] border-[#c5c5c9] cursor-pointer border-b-2 flex items-center ">
-                <img src={icon1} alt="..." className="w-10 h-10" />
-                <div className="ml-3">
+                <BiCurrentLocation size={25} className="text-[#3498DB]" />
+                <div className="ml-5">
                   <p className=" flex text-sm text-[#757783] font-semibold">
                     Where are you going?
                     <IoIosArrowDown className="ml-2 text-[#676978]" />
@@ -121,8 +118,8 @@ export default function CarouselComp() {
             </div>
             <div className=" flex justify-center items-center ">
               <div className=" w-[90%] h-[65px] border-[#c5c5c9] cursor-pointer border-b-2 flex items-center ">
-                <img src={icon2} alt="..." className="w-10 h-10" />
-                <div className="ml-3">
+                <BsCalendar2Date size={25} className="text-[#3498DB]" />
+                <div className="ml-5">
                   <p className=" flex text-sm text-[#757783] font-semibold">
                     Departure Date?
                     <IoIosArrowDown className="ml-[60px] text-[#676978]" />
@@ -133,8 +130,8 @@ export default function CarouselComp() {
             </div>
             <div className=" flex justify-center items-center ">
               <div className=" w-[90%] h-[65px] border-[#c5c5c9] cursor-pointer border-b-2 flex items-center ">
-                <img src={icon3} alt="..." className="w-10 h-10" />
-                <div className="ml-3">
+                <BsCalendar2Date size={25} className="text-[#3498DB]" />
+                <div className="ml-5">
                   <p className="text-sm text-[#757783] font-semibold">Return</p>
                   <p className="text-sm text-[#313041] font-bold">--</p>
                 </div>
@@ -142,9 +139,8 @@ export default function CarouselComp() {
             </div>
             <div className=" flex justify-center items-center ">
               <div className=" w-[80%] h-[65px] border-[#c5c5c9] cursor-pointer border-b-2 flex items-center ">
-                <GrGroup size={30} className="text-[#3498DB]" />
-
-                <div className="ml-3">
+                <RiGroupLine size={25} className="text-[#3498DB]" />
+                <div className="ml-5">
                   <p className=" text-sm text-[#757783] font-semibold">
                     Guests
                   </p>

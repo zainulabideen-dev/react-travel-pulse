@@ -13,21 +13,17 @@ export default function HeaderComp() {
         <div className="w-[1366px] h-[42px] flex justify-center">
           <div className="h-full w-[87%] grid grid-cols-2">
             <div className=" flex items-center">
-              <div className=" cursor-pointer flex">
-                <div>
-                  <FaPhone className="text-[#3498DB]" />
-                </div>
-                <div className=" ml-3 text-sm font-semibold">
+              <div className="cursor-pointer flex">
+                <FaPhone className="text-[#fff]" />
+                <div className="ml-3 text-sm font-semibold">
                   <p className="text-[#9D9D9D] hover:text-[#E8604C]">
                     666 888 0000
                   </p>
                 </div>
               </div>
-              <div className="ml-6 cursor-pointer flex">
-                <div className="">
-                  <HiMail className="text-[#3498DB]" />
-                </div>
-                <div className=" ml-3 text-sm font-semibold ">
+              <div className="ml-6 cursor-pointer flex items-center">
+                <HiMail className="text-[#fff]" />
+                <div className="ml-3 text-sm font-semibold">
                   <p className="text-[#9D9D9D] hover:text-[#E8604C]">
                     contact@example.com
                   </p>

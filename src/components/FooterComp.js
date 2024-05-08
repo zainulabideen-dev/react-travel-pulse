@@ -15,33 +15,33 @@ export const FooterComp = () => {
               <img
                 src={logoImg}
                 alt="logo"
-                className=" h-[50px] cursor-pointer"
+                className="h-[50px] cursor-pointer object-contain"
               />
               <p className="text-[25px] font-bold text-white ml-1">
                 TravelPulse
               </p>
             </div>
           </div>
-          <div className="text-[#54595f] font-bold">
+          <div className="text-gray-400 font-medium">
             <p>Welcome to our Trip and Tour Agency.</p>
             <p>Lorem simply text amet cing elit.</p>
             <hr className="bg-[#54595f] my-5 h-[1px]" />
             <ul>
               <li>
                 <div className="flex items-center">
-                  <FaPhoneSquareAlt className="text-red-400" />
+                  <FaPhoneSquareAlt className="text-white" />
                   <p className="text-sm ml-2">92 666 888 0000</p>
                 </div>
               </li>
               <li className="mt-2">
                 <div className="flex items-center">
-                  <IoMail className="text-red-400" />
+                  <IoMail className="text-white" />
                   <p className="text-sm ml-2">contact@example.com</p>
                 </div>
               </li>
               <li className="mt-2">
                 <div className="flex items-center">
-                  <MdLocationOn className="text-red-400" />
+                  <MdLocationOn className="text-white" />
                   <p className="text-sm ml-2">
                     66 Broklyn Street New York, USA
                   </p>
@@ -54,31 +54,31 @@ export const FooterComp = () => {
           <div className="flex h-[90px] items-start">
             <p className="text-[25px] text-white font-bold">Company</p>
           </div>
-          <div className="text-[#54595f]">
+          <div className="text-gray-400 font-medium">
             <ul>
               <li>
                 <Link to={"/about"}>
-                  <p className="text-lg ml-2 ">About Us</p>
+                  <p className="text-md ml-2 ">About Us</p>
                 </Link>
               </li>
               <li className="mt-2">
                 <a href="#">
-                  <p className="text-lg ml-2 font-bold">Community Blog</p>
+                  <p className="text-md ml-2">Community Blog</p>
                 </a>
               </li>
               <li className="mt-2">
                 <a href="#">
-                  <p className="text-lg ml-2 font-bold">Rewards</p>
+                  <p className="text-md ml-2">Rewards</p>
                 </a>
               </li>
               <li className="mt-2">
                 <a href="#">
-                  <p className="text-lg ml-2 font-bold">Work With Us</p>
+                  <p className="text-md ml-2">Work With Us</p>
                 </a>
               </li>
               <li className="mt-2">
                 <a href="#">
-                  <p className="text-lg ml-2 font-bold">Contact</p>
+                  <p className="text-md ml-2">Contact</p>
                 </a>
               </li>
             </ul>
@@ -88,31 +88,31 @@ export const FooterComp = () => {
           <div className="flex h-[90px] items-start">
             <p className="text-[25px] text-white font-bold">Explore</p>
           </div>
-          <div className="text-[#54595f]">
+          <div className="text-gray-400 font-medium">
             <ul>
               <li>
                 <a href="#">
-                  <p className="text-lg ml-2 ">Account</p>
+                  <p className="text-md ml-2 ">Account</p>
                 </a>
               </li>
               <li className="mt-2">
                 <Link to={"/terms-and-condition"}>
-                  <p className="text-lg ml-2 font-bold">Privacy Policy</p>
+                  <p className="text-md ml-2">Privacy Policy</p>
                 </Link>
               </li>
               <li className="mt-2">
                 <a href="#">
-                  <p className="text-lg ml-2 font-bold">Affilitate Program</p>
+                  <p className="text-md ml-2">Affilitate Program</p>
                 </a>
               </li>
               <li className="mt-2">
                 <a href="#">
-                  <p className="text-lg ml-2 font-bold">Our Partners</p>
+                  <p className="text-md ml-2">Our Partners</p>
                 </a>
               </li>
               <li className="mt-2">
                 <a href="#">
-                  <p className="text-lg ml-2 font-bold">Events</p>
+                  <p className="text-md ml-2">Events</p>
                 </a>
               </li>
             </ul>
@@ -128,7 +128,7 @@ export const FooterComp = () => {
               className="p-[15px] rounded-[8px] text-center bg-[#566573] outline-none w-full"
             />
           </div>
-          <p className="bg-[#ff6900] cursor-pointer text-white text-center font-semibold p-5 rounded-lg mt-3">
+          <p className="bg-[#3498DB] cursor-pointer text-white text-center font-semibold p-5 rounded-lg mt-3">
             SUBSCRIBE
           </p>
         </div>

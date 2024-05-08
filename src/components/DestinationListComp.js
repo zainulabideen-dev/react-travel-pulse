@@ -121,16 +121,16 @@ export default function Destination_listComp() {
       </div>
       <div className=" w-[100%] h-[800px] flex justify-center">
         <div className="w-[1360px] h-full flex items-center">
-          <div className="w-[55%] h-[80%] flex items-center justify-end">
+          <div className="w-[55%] h-[80%] flex items-center justify-center">
             <div
-              className="cursor-pointer w-[85%] h-[85%] bg-contain rounded-lg"
+              className="cursor-pointer w-[80%] h-[80%] bg-cover rounded-lg bg-center"
               style={{
                 backgroundImage: `url("${qiadImg}")`,
               }}
             >
-              <div className=" w-full h-[200px] flex justify-end items-end">
-                <p className="text-6xl font-semibold text-black mr-10">
-                  <span className="text-7xl text-[#E8604C]">30%</span>
+              <div className=" w-full h-[200px] flex justify-end items-start pt-5">
+                <p className="text-3xl font-semibold text-black mr-10">
+                  <span className="text-black">30%</span>
                   <br />
                   Discount
                 </p>
@@ -148,7 +148,7 @@ export default function Destination_listComp() {
           </div>
           <div className="w-[45%] h-[80%] p-4">
             <p className="text-6xl text-black mr-10 font-semibold">
-              <span className="text-3xl text-[#E8604C] ml-3">
+              <span className="text-3xl text-[#3498DB] ml-3">
                 Get to know us
               </span>
               <br />
@@ -162,24 +162,24 @@ export default function Destination_listComp() {
               </p>
             </div>
             <div className="flex items-center mt-10">
-              <FaCheckCircle className="text-[#E8604C]" />
+              <FaCheckCircle className="text-[#3498DB]" />
               <p className="text-black text-lg ml-4">
                 Invest in your simply neighborhood
               </p>
             </div>
             <div className="flex items-center my-5">
-              <FaCheckCircle className="text-[#E8604C]" />
+              <FaCheckCircle className="text-[#3498DB]" />
               <p className="text-black text-lg ml-4">
                 Support people in free text extreme
               </p>
             </div>
             <div className="flex items-center my-5">
-              <FaCheckCircle className="text-[#E8604C]" />
+              <FaCheckCircle className="text-[#3498DB]" />
               <p className="text-black text-lg ml-4">
                 Largest global industrial business{" "}
               </p>
             </div>
-            <div className="cursor pointer ml-2 mt-9 bg-[#E8604C] w-[210px] h-[55px] rounded-lg flex justify-center items-center hover:bg-[#54586d]">
+            <div className="cursor pointer ml-2 mt-9 bg-[#3498DB] w-[210px] h-[55px] rounded-lg flex justify-center items-center hover:bg-[#54586d]">
               <p className="text-white text-sm font-semibold">
                 BOOK WITH US NOW
               </p>
