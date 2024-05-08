@@ -16,7 +16,7 @@ export default function HeaderComp() {
               <div className="cursor-pointer flex">
                 <FaPhone className="text-[#fff]" />
                 <div className="ml-3 text-sm font-semibold">
-                  <p className="text-[#9D9D9D] hover:text-[#E8604C]">
+                  <p className="text-[#9D9D9D] hover:text-[#3498DB]">
                     666 888 0000
                   </p>
                 </div>
@@ -24,7 +24,7 @@ export default function HeaderComp() {
               <div className="ml-6 cursor-pointer flex items-center">
                 <HiMail className="text-[#fff]" />
                 <div className="ml-3 text-sm font-semibold">
-                  <p className="text-[#9D9D9D] hover:text-[#E8604C]">
+                  <p className="text-[#9D9D9D] hover:text-[#3498DB]">
                     contact@example.com
                   </p>
                 </div>
@@ -32,16 +32,16 @@ export default function HeaderComp() {
             </div>
             <div className="flex justify-end">
               <div className=" flex">
-                <div className="flex h-full w-[40px] items-center justify-center text-white hover:text-[#E8604C] cursor-pointer">
+                <div className="flex h-full w-[40px] items-center justify-center text-white hover:text-[#3498DB] cursor-pointer">
                   <FaTwitter className="w-7 h-7 p-1" />
                 </div>
-                <div className="flex h-full w-[40px] items-center justify-center text-white hover:text-[#E8604C] cursor-pointer">
+                <div className="flex h-full w-[40px] items-center justify-center text-white hover:text-[#3498DB] cursor-pointer">
                   <RiFacebookCircleFill className="w-7 h-7 p-1" />
                 </div>
-                <div className="flex h-full w-[40px] items-center justify-center text-white hover:text-[#E8604C] cursor-pointer">
+                <div className="flex h-full w-[40px] items-center justify-center text-white hover:text-[#3498DB] cursor-pointer">
                   <FaInstagram className="w-7 h-7 p-1" />
                 </div>
-                <div className="flex h-full w-[40px] items-center justify-center text-white hover:text-[#E8604C] cursor-pointer">
+                <div className="flex h-full w-[40px] items-center justify-center text-white hover:text-[#3498DB] cursor-pointer">
                   <FaPinterest className="w-7 h-7 p-1" />
                 </div>
               </div>

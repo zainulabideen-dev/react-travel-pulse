@@ -19,36 +19,36 @@ export default function NavbaarComp() {
           </div>
           <div className="h-full w-[50%] flex items-center">
             <ul className="h-full flex text-[#757783] font-medium">
-              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-6 h-full  border-b-2 border-transparent hover:border-b-[#E8604C]">
+              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-6 h-full  border-b-2 border-transparent hover:border-b-[#3498DB]">
                 Home
                 <IoIosArrowDown className="mt-1" />
               </li>
-              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-6 h-full  border-b-2 border-transparent hover:border-b-[#E8604C]">
+              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-6 h-full  border-b-2 border-transparent hover:border-b-[#3498DB]">
                 Tours Page
                 <IoIosArrowDown className="mt-1" />
               </li>
-              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-6 h-full  border-b-2 border-transparent hover:border-b-[#E8604C]">
+              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-6 h-full  border-b-2 border-transparent hover:border-b-[#3498DB]">
                 Destination
                 <IoIosArrowDown className="mt-1" />
               </li>
-              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-6 h-full  border-b-2 border-transparent hover:border-b-[#E8604C]">
+              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-6 h-full  border-b-2 border-transparent hover:border-b-[#3498DB]">
                 News
                 <IoIosArrowDown className="mt-1" />
               </li>
-              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-6 h-full  border-b-2 border-transparent hover:border-b-[#E8604C]">
+              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-6 h-full  border-b-2 border-transparent hover:border-b-[#3498DB]">
                 Page
                 <IoIosArrowDown className="mt-1" />
               </li>
-              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-5 h-full  border-b-2 border-transparent hover:border-b-[#E8604C]">
+              <li className="flex items-center cursor-pointer hover:text-[#313041] mr-5 h-full  border-b-2 border-transparent hover:border-b-[#3498DB]">
                 Contact
               </li>
             </ul>
           </div>
           <div className="h-full w-[25%] flex justify-center items-center ">
-            <div className=" w-[45px] rounded-full bg-[#FAF5EE] text-[#757783] mr-5 cursor-pointer hover:text-[#E8604C]">
+            <div className=" w-[45px] rounded-full bg-[#FAF5EE] text-[#757783] mr-5 cursor-pointer hover:text-[#3498DB]">
               <GoSearch className="w-[45px] h-[45px] p-2" />
             </div>
-            <div className=" w-[45px] rounded-full bg-[#FAF5EE] text-[#757783] cursor-pointer hover:text-[#E8604C]">
+            <div className=" w-[45px] rounded-full bg-[#FAF5EE] text-[#757783] cursor-pointer hover:text-[#3498DB]">
               <AiOutlineUser className="w-[45px] h-[45px] p-2" />
             </div>
           </div>

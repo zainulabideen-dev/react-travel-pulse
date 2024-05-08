@@ -14,7 +14,7 @@ export default function Destination_listComp() {
         <div className="w-[1366px] h-[800px]">
           <div className="w-full h-[250px] flex justify-center items-end">
             <div className="text-center mb-6">
-              <p className=" font-[reey] text-4xl text-[#E8604C]">
+              <p className=" font-[reey] text-4xl text-[#3498DB]">
                 Destination Lists
               </p>
               <p className=" font-[reey] text-6xl font-bold text-[#313041]">
@@ -32,7 +32,7 @@ export default function Destination_listComp() {
                   }}
                 >
                   <div className=" flex justify-end items-center w-[90%] h-[60px]  ml-3 mt-2">
-                    <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
+                    <div className=" bg-[#3498DB] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">4 TOURS</p>
                     </div>
                   </div>
@@ -47,7 +47,7 @@ export default function Destination_listComp() {
                   }}
                 >
                   <div className=" flex justify-end items-center w-[95%] h-[60px]  ml-3 mt-2">
-                    <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
+                    <div className=" bg-[#3498DB] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">6 TOURS</p>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ export default function Destination_listComp() {
                   }}
                 >
                   <div className=" flex justify-end items-center w-[90%] h-[60px]  ml-3 mt-2">
-                    <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
+                    <div className=" bg-[#3498DB] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">3 TOURS</p>
                     </div>
                   </div>
@@ -83,7 +83,7 @@ export default function Destination_listComp() {
                   }}
                 >
                   <div className=" flex justify-end items-center w-[95%] h-[60px] ml-3 mt-2">
-                    <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
+                    <div className=" bg-[#3498DB] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">3 TOURS</p>
                     </div>
                   </div>
@@ -102,7 +102,7 @@ export default function Destination_listComp() {
                   }}
                 >
                   <div className=" flex justify-end items-center w-[95%] h-[60px] ml-3 mt-2">
-                    <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
+                    <div className=" bg-[#3498DB] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">3 TOURS</p>
                     </div>
                   </div>

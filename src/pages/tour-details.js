@@ -55,7 +55,7 @@ export function TourDetailPage(props) {
           <div className="flex justify-center">
             <div className="flex">
               <div className="flex items-center">
-                <FaMoneyBillWave className="text-orange-500 mr-3" size={25} />
+                <FaMoneyBillWave className="text-[#3498DB] mr-3" size={25} />
               </div>
               <div>
                 <p className="text-gray-400">From</p>
@@ -64,7 +64,7 @@ export function TourDetailPage(props) {
             </div>
             <div className="flex ml-20">
               <div className="flex items-center">
-                <IoIosTime className="text-orange-500 mr-3" size={25} />
+                <IoIosTime className="text-[#3498DB] mr-3" size={25} />
               </div>
               <div>
                 <p className="text-gray-400">Duration</p>
@@ -73,7 +73,7 @@ export function TourDetailPage(props) {
             </div>
             <div className="flex ml-20">
               <div className="flex items-center">
-                <RiPlaneFill className="text-orange-500 mr-3" size={25} />
+                <RiPlaneFill className="text-[#3498DB] mr-3" size={25} />
               </div>
               <div>
                 <p className="text-gray-400">Tour Type</p>
@@ -95,15 +95,15 @@ export function TourDetailPage(props) {
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="bg-gray-200 flex items-center px-4 py-2 rounded-md cursor-pointer hover:bg-orange-500 hover:text-white">
+              <div className="bg-gray-200 flex items-center px-4 py-2 rounded-md cursor-pointer hover:bg-[#3498DB] hover:text-white">
                 <FaShare />
                 <p className="ml-2 text-sm">SHARE</p>
               </div>
-              <div className="ml-10 bg-gray-200 flex items-center px-4 py-2 rounded-md cursor-pointer hover:bg-orange-500 hover:text-white">
+              <div className="ml-10 bg-gray-200 flex items-center px-4 py-2 rounded-md cursor-pointer hover:bg-[#3498DB] hover:text-white">
                 <FaShare />
                 <p className="ml-2 text-sm">REVIEWS</p>
               </div>
-              <div className="ml-10 bg-gray-200 flex items-center px-4 py-2 rounded-md cursor-pointer hover:bg-orange-500 hover:text-white">
+              <div className="ml-10 bg-gray-200 flex items-center px-4 py-2 rounded-md cursor-pointer hover:bg-[#3498DB] hover:text-white">
                 <CiHeart />
                 <p className="ml-2 text-sm">WISH LIST</p>
               </div>
@@ -128,19 +128,19 @@ export function TourDetailPage(props) {
             <div className="grid grid-cols-2 mt-3">
               <div>
                 <div className="flex items-center">
-                  <FaCheck className="text-orange-400" />
+                  <FaCheck className="text-[#3498DB]" />
                   <p className="ml-3">Pick and Drop Services</p>
                 </div>
                 <div className="flex items-center mt-2">
-                  <FaCheck className="text-orange-400" />
+                  <FaCheck className="text-[#3498DB]" />
                   <p className="ml-3">1 Meal Per Day</p>
                 </div>
                 <div className="flex items-center mt-2">
-                  <FaCheck className="text-orange-400" />
+                  <FaCheck className="text-[#3498DB]" />
                   <p className="ml-3">Cruise Dinner & Music Event</p>
                 </div>
                 <div className="flex items-center mt-2">
-                  <FaCheck className="text-orange-400" />
+                  <FaCheck className="text-[#3498DB]" />
                   <p className="ml-3">
                     Visit 7 Best Places in the City With Group
                   </p>
@@ -170,15 +170,39 @@ export function TourDetailPage(props) {
           </div>
           <div className="flex justify-center">
             <div className="bg-[#faf5ee] w-[70%] px-5 py-5">
-              <div className="border-l-4 border-orange-500 pl-3">
+              <div className="border-l-4 border-[#3498DB] pl-3">
                 <p className="text-2xl font-bold">Booking Tour</p>
+              </div>
+              <p className="text-md font-bold mt-3">Name:</p>
+              <div className="mt-5  border-b-[1px] border-gray-300 pb-5">
+                <div className="bg-white px-3 py-2 border border-gray-300">
+                  <input className="w-full outline-none" type="text" placeholder="Enter Your Name"/>
+                </div>
+              </div>
+              <p className="text-md font-bold mt-3">Contact Number:</p>
+              <div className="mt-5  border-b-[1px] border-gray-300 pb-5">
+                <div className="bg-white px-3 py-2 border border-gray-300">
+                  <input className="w-full outline-none" type="text" placeholder="Enter Your Contact"/>
+                </div>
+              </div>
+              <p className="text-md font-bold mt-3">E-mail:</p>
+              <div className="mt-5  border-b-[1px] border-gray-300 pb-5">
+                <div className="bg-white px-3 py-2 border border-gray-300">
+                  <input className="w-full outline-none" type="text" placeholder="Enter Your E-mail"/>
+                </div>
+              </div>
+              <p className="text-md font-bold mt-3">Passengers count:</p>
+              <div className="mt-5  border-b-[1px] border-gray-300 pb-5">
+                <div className="bg-white px-3 py-2 border border-gray-300">
+                  <input className="w-full outline-none" type="text" placeholder="Enter Your Passengers count"/>
+                </div>
               </div>
               <div className="mt-5 grid grid-cols-2 border-b-[1px] border-gray-300 pb-5">
                 <div className="flex items-center">
                   <p>From:</p>
                 </div>
                 <div className="bg-white px-3 py-2 border border-gray-300">
-                  <input type="date" placeholder="" value={""} />
+                  <input className="outline-none" type="text" placeholder="From"  />
                 </div>
               </div>
               <div className="mt-5 grid grid-cols-2 border-b-[1px] border-gray-300 pb-5">
@@ -186,7 +210,7 @@ export function TourDetailPage(props) {
                   <p>Time:</p>
                 </div>
                 <div className="bg-white px-3 py-2 border border-gray-300">
-                  <input type="time" placeholder="" value={""} />
+                  <input className="outline-none" type="text" placeholder="Time"  />
                 </div>
               </div>
               <div className="mt-5 grid grid-cols-2 border-b-[1px] border-gray-300 pb-5">
@@ -197,30 +221,8 @@ export function TourDetailPage(props) {
                   <p>please, select date first</p>
                 </div>
               </div>
-              <p className="text-md font-bold mt-3">Add Extra</p>
-              <div className="mt-5 grid grid-cols-2 border-b-[1px] border-gray-300 pb-5">
-                <div className="flex items-center">
-                  <input type="checkbox" />
-                  <p className="ml-3 text-sm">Service per booking</p>
-                </div>
-                <div className="text-sm flex justify-end">
-                  <p>20,000 Pkr</p>
-                </div>
-              </div>
-              <div className="mt-5 grid grid-cols-2 border-b-[1px] border-gray-300 pb-5">
-                <div className="flex items-center">
-                  <input type="checkbox" />
-                  <p className="ml-3 text-sm">Service per person</p>
-                </div>
-                <div className="text-sm flex justify-end">
-                  <div>
-                    <p>Adult: 20,000 Pkr</p>
-                    <p>Youth: 20,000 Pkr</p>
-                  </div>
-                </div>
-              </div>
               <p className="text-md font-bold mt-3">Total:</p>
-              <p className="bg-[#ff6900] text-white cursor-pointer py-3 mt-5 text-sm text-center rounded-md">
+              <p className="bg-[#3498DB] text-white cursor-pointer py-3 mt-5 text-sm text-center rounded-md">
                 BOOK NOW
               </p>
             </div>

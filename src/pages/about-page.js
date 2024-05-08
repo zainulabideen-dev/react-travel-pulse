@@ -27,7 +27,7 @@ export const AboutPage = () => {
                   <p>Home</p>
                 </Link>
                 <p className="px-2">/</p>
-                <p className="text-red-400 ">About</p>
+                <p className="text-[#3498DB] ">About</p>
               </div>
             </div>
           </div>
