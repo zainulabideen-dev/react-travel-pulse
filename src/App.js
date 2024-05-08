@@ -10,16 +10,16 @@ import LoginPage from "./pages/login_page";
 function App() {
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home_page />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/terms-and-condition" element={<TermsCondPage />} />
           <Route path="/tour-details" element={<TourDetailPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/sign-up" element={<SignUpPage />} />
         </Routes>
-      </BrowserRouter> */}
-      {/* <SignUpPage/> */}
-      <LoginPage/>
+      </BrowserRouter>
     </>
   );
 }
