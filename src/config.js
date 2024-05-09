@@ -18,6 +18,9 @@ import nathiyagali02Img from "./Images/nathiyagali_02.jpeg";
 import nathiyagali03Img from "./Images/nathiyagali_03.jpeg";
 import nathiyagali04Img from "./Images/nathiyagali_04.jpeg";
 import nathiyagali05Img from "./Images/nathiyagali_05.jpeg";
+import crsl_lahore_1 from "./Images/crsl_lahore_1.jpeg";
+import crsl_karachi_2 from "./Images/crsl_karachi_2.jpg";
+import crsl_nothern_3 from "./Images/crsl_nothern_3.jpg";
 
 // Most Popular tour
 export const mostPopTour = [
@@ -58,5 +61,22 @@ export const mostPopTour = [
       nathiyagali04Img,
       nathiyagali05Img,
     ],
+  },
+];
+
+export const crosal_images = [
+  {
+    id: 1,
+    days: 7,
+    image: crsl_lahore_1,
+  },
+  {
+    id: 2,
+    days: 5,
+    image: crsl_karachi_2,
+  },
+  {
+    id: 3,
+    image: crsl_nothern_3,
   },
 ];

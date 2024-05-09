@@ -7,14 +7,14 @@ import skarduImg from "../Images/skardu02.jpeg";
 import multanImg from "../Images/multan.jpeg";
 import qiadImg from "../Images/qaid.jpeg";
 
-export default function Destination_listComp() {
+export default function Destination_listComp({ bookNow }) {
   return (
     <>
       <div className="w-[100%] h-[900px] flex items-center justify-center">
         <div className="w-[1366px] h-[800px]">
           <div className="w-full h-[250px] flex justify-center items-end">
             <div className="text-center mb-6">
-              <p className=" font-[reey] text-4xl text-[#E8604C]">
+              <p className=" font-[reey] text-4xl text-[#3498DB]">
                 Destination Lists
               </p>
               <p className=" font-[reey] text-6xl font-bold text-[#313041]">
@@ -32,7 +32,7 @@ export default function Destination_listComp() {
                   }}
                 >
                   <div className=" flex justify-end items-center w-[90%] h-[60px]  ml-3 mt-2">
-                    <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
+                    <div className=" bg-[#3498DB] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">4 TOURS</p>
                     </div>
                   </div>
@@ -47,7 +47,7 @@ export default function Destination_listComp() {
                   }}
                 >
                   <div className=" flex justify-end items-center w-[95%] h-[60px]  ml-3 mt-2">
-                    <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
+                    <div className=" bg-[#3498DB] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">6 TOURS</p>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ export default function Destination_listComp() {
                   }}
                 >
                   <div className=" flex justify-end items-center w-[90%] h-[60px]  ml-3 mt-2">
-                    <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
+                    <div className=" bg-[#3498DB] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">3 TOURS</p>
                     </div>
                   </div>
@@ -83,7 +83,7 @@ export default function Destination_listComp() {
                   }}
                 >
                   <div className=" flex justify-end items-center w-[95%] h-[60px] ml-3 mt-2">
-                    <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
+                    <div className=" bg-[#3498DB] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">3 TOURS</p>
                     </div>
                   </div>
@@ -102,7 +102,7 @@ export default function Destination_listComp() {
                   }}
                 >
                   <div className=" flex justify-end items-center w-[95%] h-[60px] ml-3 mt-2">
-                    <div className=" bg-[#E8604C] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
+                    <div className=" bg-[#3498DB] w-[100px] h-[30px] rounded-lg flex justify-center items-center">
                       <p className="text-white text-xs font-bold">3 TOURS</p>
                     </div>
                   </div>
@@ -179,7 +179,10 @@ export default function Destination_listComp() {
                 Largest global industrial business{" "}
               </p>
             </div>
-            <div className="cursor pointer ml-2 mt-9 bg-[#3498DB] w-[210px] h-[55px] rounded-lg flex justify-center items-center hover:bg-[#54586d]">
+            <div
+              onClick={() => bookNow()}
+              className="cursor-pointer ml-2 mt-9 bg-[#3498DB] w-[210px] h-[55px] rounded-lg flex justify-center items-center hover:bg-[#54586d]"
+            >
               <p className="text-white text-sm font-semibold">
                 BOOK WITH US NOW
               </p>

@@ -2,80 +2,19 @@ import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
 import { Carousel } from "primereact/carousel";
-import skarduImg from "../Images/skardu.jpeg";
-import hunzaImg from "../Images/hunza.jpeg";
-import murreeImg from "../Images/murree.jpeg";
-import nathiyagaliImg from "../Images/Nathiyagali_Khanpur_Dam.jpeg";
 import { HiMiniAdjustmentsHorizontal } from "react-icons/hi2";
 import { BsCalendar2Date } from "react-icons/bs";
 import { BiCurrentLocation } from "react-icons/bi";
 import { RiGroupLine } from "react-icons/ri";
-
-const products = [
-  {
-    id: 1,
-    title: "7 Days Skardu",
-    location: "Skardu, Pakistan",
-    price: "25,000 PKR",
-    days: 7,
-    image: skarduImg,
-  },
-  {
-    id: 2,
-    title: "5 Days Hunza",
-    location: "Hunza, Pakistan",
-    price: "20,000 PKR",
-    days: 5,
-    image: hunzaImg,
-  },
-  {
-    id: 3,
-    title: "2 Days Murree",
-    location: "Murree, Pakistan",
-    price: "15,000 PKR",
-    days: 2,
-    image: murreeImg,
-  },
-  {
-    id: 4,
-    title: "2 Days Nathiyagali Khanpur Dam",
-    location: "Nathiyagali Khanpur Dam, Pakistan",
-    price: "18,000 PKR",
-    days: 2,
-    image: nathiyagaliImg,
-  },
-];
+import { crosal_images } from "../config";
 
 export default function CarouselComp() {
-  const responsiveOptions = [
-    {
-      breakpoint: "1400px",
-      numVisible: 2,
-      numScroll: 1,
-    },
-    {
-      breakpoint: "1199px",
-      numVisible: 3,
-      numScroll: 1,
-    },
-    {
-      breakpoint: "767px",
-      numVisible: 2,
-      numScroll: 1,
-    },
-    {
-      breakpoint: "575px",
-      numVisible: 1,
-      numScroll: 1,
-    },
-  ];
-
   const productTemplate = (product) => {
     return (
-      <div className="w-full h-[100%] border-1 surface-border border-round">
+      <div className="w-full h-[100%]">
         <img
           alt="..."
-          className="w-full h-[100%] bg-contain"
+          className="w-[100%] h-[100%] object-contain object-center"
           src={product?.image}
         />
       </div>
@@ -84,15 +23,12 @@ export default function CarouselComp() {
 
   return (
     <>
-      <div className="relative  w-[100%] h-[600px] ">
+      <div className="w-[100%] h-[600px] ">
         <div className=" w-[100%] h-[500px] flex justify-center items-center overflow-hidden">
           <div className="card">
             <Carousel
               showNavigators={false}
-              value={products}
-              //numVisible={1}
-              //numScroll={1}
-              responsiveOptions={responsiveOptions}
+              value={crosal_images}
               className="custom-carousel"
               circular
               autoplayInterval={3000}

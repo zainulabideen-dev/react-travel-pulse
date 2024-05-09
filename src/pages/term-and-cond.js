@@ -27,7 +27,7 @@ export const TermsCondPage = () => {
                   <p>Home</p>
                 </Link>
                 <p className="px-2">/</p>
-                <p className="text-red-400 ">Terms and Conditions Page</p>
+                <p className="text-[#3498DB] ">Terms and Conditions Page</p>
               </div>
             </div>
           </div>
