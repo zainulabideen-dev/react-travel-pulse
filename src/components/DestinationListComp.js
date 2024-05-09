@@ -7,7 +7,7 @@ import skarduImg from "../Images/skardu02.jpeg";
 import multanImg from "../Images/multan.jpeg";
 import qiadImg from "../Images/qaid.jpeg";
 
-export default function Destination_listComp() {
+export default function Destination_listComp({ bookNow }) {
   return (
     <>
       <div className="w-[100%] h-[900px] flex items-center justify-center">
@@ -179,7 +179,10 @@ export default function Destination_listComp() {
                 Largest global industrial business{" "}
               </p>
             </div>
-            <div className="cursor pointer ml-2 mt-9 bg-[#3498DB] w-[210px] h-[55px] rounded-lg flex justify-center items-center hover:bg-[#54586d]">
+            <div
+              onClick={() => bookNow()}
+              className="cursor-pointer ml-2 mt-9 bg-[#3498DB] w-[210px] h-[55px] rounded-lg flex justify-center items-center hover:bg-[#54586d]"
+            >
               <p className="text-white text-sm font-semibold">
                 BOOK WITH US NOW
               </p>
