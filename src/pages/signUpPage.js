@@ -2,7 +2,7 @@ import React from "react";
 import NavbaarComp from "../components/NavbaarComp";
 import HeaderComp from "../components/headerComp";
 import { FooterComp } from "../components/FooterComp";
-
+import travelImg from "../Images/travel.jpeg";
 
 export default function SignUpPage() {
   return (
@@ -10,19 +10,24 @@ export default function SignUpPage() {
       <HeaderComp />
       <NavbaarComp />
       <div className="w-[100%] h-[700px] bg-[#d3dee233] flex justify-center items-center">
-        <div className="w-[1366px] h-full  flex justify-center items-center">
+        <div className="w-[1366px] h-full flex justify-center items-center">
           <div className="w-[85%] h-[80%]  flex shadow-2xl">
-            <div className="w-[45%] bg-[#abc2cb33] h-full">
-              <div className="mt-[40px] w-full h-[80%] bg-cover bg-[url('https://gaviaspreview.com/wp/tevily/wp-content/themes/tevily/assets/images/register.png')]"></div>
-              <div className="w-full h-[70px] flex items-center justify-center">
+            <div className="w-[40%] bg-[#abc2cb33] h-full">
+              <div
+                className="w-full h-[100%] bg-cover bg-center rounded-l-[40px]"
+                style={{
+                  backgroundImage: `url("${travelImg}")`,
+                }}
+              ></div>
+              {/* <div className="w-full h-[70px] flex items-center justify-center">
                 <p className="text-lg text-[#757783]">Already a member</p>
                 <p className="cursor-pointer hover:bg-[#313041] bg-[#3498DB] w-[80px] h-[30px] ml-3 flex justify-center items-center rounded-lg text-sm font-bold text-white">
                   LOGIN
                 </p>
-              </div>
+              </div> */}
             </div>
-            <div className=" w-[55%] h-full bg-white flex items-center justify-center">
-              <div className="  w-[87%] h-[85%]">
+            <div className="w-[60%] h-full bg-white flex items-center justify-center">
+              <div className="w-[87%] h-[85%]">
                 <p className="text-[35px] font-bold">Create a free account</p>
                 <p className="text-[#757783] mt-2">
                   A few clicks away from creating your account
